@@ -1,4 +1,4 @@
-# Linux-BringUp-N-Drivers
+# Linux-Bringup-N-Drivers
 
 ## 01-Character-device-driver
   - Hello-world kernel module
