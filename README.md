@@ -27,12 +27,29 @@
 ## 07-I2C-device-driver
   - Basic protocol
   - Operations mode
+  - I2C Architecture in Linux
+  - Control LCD 16x2
+## 08-SPI-device-driver
+  - Basic protocol
+  - Operations mode
   - SPI Architecture in Linux
   - SPI protocol driver
   - SPI Transaction
   - SPI Master
   - Control LCD nokia 5110 or proximity sensor
-## 08-SPI-device-driver
 ## 09-USB-device-driver
-## 10-Network-device-driver
-## 11-Bringup-display-panel
+  - Basic concepts
+  - USB descriptor
+    - Device descriptor
+    - Configuration descriptor
+    - Interface descriptor
+    - Endpoint descriptor
+  - Data Flow Types
+    - Control Transfers
+    - Interrupt Transfers
+    - Bulk Transfers
+    - Isochronous Transfers
+  - USB device driver
+## 10-Bringup-display-panel
+  - Bringup LCD panel ili9341
+  - Display video
