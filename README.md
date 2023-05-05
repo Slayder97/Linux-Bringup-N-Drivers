@@ -24,12 +24,12 @@
   - Bring-up PWM
   - Controlled led fades out via pwm
   - Play a song by using pwm
-## 07-I2C-device-driver
+## 07-I2C-driver
   - Basic protocol
   - Operations mode
   - I2C Architecture in Linux
   - Control LCD 16x2
-## 08-SPI-device-driver
+## 08-SPI-driver
   - Basic protocol
   - Operations mode
   - SPI Architecture in Linux
@@ -37,7 +37,7 @@
   - SPI Transaction
   - SPI Master
   - Control LCD nokia 5110 or proximity sensor
-## 09-USB-device-driver
+## 09-USB-driver
   - Basic concepts
   - USB descriptor
     - Device descriptor
@@ -53,3 +53,4 @@
 ## 10-Bringup-display-panel
   - Bringup LCD panel ili9341
   - Display video
+## 11-Ethernet-driver
