@@ -1,5 +1,12 @@
-#
 # Makefile for fake network device drivers.
-#
 
-obj-$(CONFIG_FAKE_ETHERNET) += m_ethernet.o
+EXTRA_CFLAGS = -Wall
+obj-m = m_ethernet.o
+
+KDIR = /lib/modules/`uname -r`/build
+
+all:
+	make -C $(KDIR) M=`pwd` modules
+
+clean:
+	make -C $(KDIR) M=`pwd` clean

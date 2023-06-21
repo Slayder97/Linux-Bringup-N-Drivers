@@ -1,4 +1,0 @@
-config FAKE_ETHERNET
-        tristate "Fake ethernet device for trainning course"
-        ---help---
-          Say Y if you intend to choose fake ethernet device
