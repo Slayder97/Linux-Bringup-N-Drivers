@@ -1,0 +1,17 @@
+diff --git a/arch/arm/boot/dts/am335x-boneblack.dts b/arch/arm/boot/dts/am335x-boneblack.dts
+index cb9cee378870..7f8d11b3cc19 100644
+--- a/arch/arm/boot/dts/am335x-boneblack.dts
++++ b/arch/arm/boot/dts/am335x-boneblack.dts
+@@ -172,3 +172,12 @@
+ 		"NC",
+ 		"NC";
+ };
++
++/ {
++	foo_device {
++		compatible = "gpio-descriptor-based";
++		led30-gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;	/** gpio0_30 */
++		status = "okay";
++	}; 
++};
++

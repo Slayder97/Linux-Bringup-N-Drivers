@@ -2,6 +2,7 @@
 #include <linux/gpio.h>     /* Defines functions such as gpio_request/gpio_free */     
 
 #define GPIO0_30            30
+
 #define LOW                 0
 #define HIGH                1
 
@@ -14,8 +15,8 @@ static int __init gpio_init(void)
     gpio_request(GPIO0_30, "gpio0_30");
     gpio_direction_output(GPIO0_30, LOW);
     gpio_set_value(GPIO0_30, HIGH);
-    pr_info("Hello! gpio status: %d!\n", gpio_get_value(GPIO0_30));
 
+    pr_info("Hello! gpio status: %d!\n", gpio_get_value(GPIO0_30));
     return 0;
 }
 
